@@ -59,7 +59,7 @@ function App() {
   }
 
   return (
-    <div className="font-serif bg-gray-100 pb-2">
+    <div className="font-serif">
       <Header />
       <Search search={searchNews} />
       <Categories item={categories} setQuery={setQuery} setPage={setPage} />
